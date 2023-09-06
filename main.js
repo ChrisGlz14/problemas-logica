@@ -124,6 +124,22 @@
 //   console.log("Ingrese datos porfavor")
 // }
 
+let numeros = []
 
+let banderaPar = 0
+
+let banderaImpar = 0
+
+for (let i = 0; i < 4; i++) {
+  let numero = Number(prompt("Ingrese un numero"));
+
+  numeros.push(numero);
+
+  if(numero % 2 == 0) {
+    banderaPar == 0
+  } else {
+    impar
+  }
+}
 
 
