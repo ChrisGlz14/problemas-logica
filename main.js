@@ -124,22 +124,59 @@
 //   console.log("Ingrese datos porfavor")
 // }
 
-let numeros = []
+// let numeros = []
 
-let banderaPar = 0
+// let banderaPar = 0
 
-let banderaImpar = 0
+// let banderaImpar = 0
 
-for (let i = 0; i < 4; i++) {
-  let numero = Number(prompt("Ingrese un numero"));
+// for (let i = 0; i < 4; i++) {
+//   let numero = Number(prompt("Ingrese un numero"));
 
-  numeros.push(numero);
+//   numeros.push(numero);
 
-  if(numero % 2 == 0) {
-    banderaPar == 0
-  } else {
-    impar
-  }
+//   if(numero % 2 == 0) {
+//     banderaPar == 0
+//   } else {
+//     impar
+//   }
+// }
+
+// let maximoPar = null; // Variable para almacenar el máximo número par
+// let minimoImpar = null; // Variable para almacenar el mínimo número impar
+
+// for (let i = 0; i < 20; i++) {
+//   let numero = parseInt(prompt("Ingrese un número"));
+
+//   if (numero % 2 === 0) {
+//     // Comprobamos si es par
+//     if (maximoPar === null || numero > maximoPar) {
+//       maximoPar = numero; // Actualizamos el máximo número par
+//     }
+//   } else {
+//     // Es impar
+//     if (minimoImpar === null || numero < minimoImpar) {
+//       minimoImpar = numero; // Actualizamos el mínimo número impar
+//     }
+//   }
+// }
+
+// if (maximoPar !== null) {
+//   console.log("El máximo número par es: " + maximoPar);
+// } else {
+//   console.log("No se ingresaron números pares.");
+// }
+
+// if (minimoImpar !== null) {
+//   console.log("El mínimo número impar es: " + minimoImpar);
+// } else {
+//   console.log("No se ingresaron números impares.");
+// }
+
+
+n = Number(prompt("Ingrese un numero"))
+while (n !== 0) {
+  n = Number(prompt("Ingrese un numero"))
+  n++
+  console.log(n)
 }
-
-
