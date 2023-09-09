@@ -44,26 +44,24 @@
 
 // console.log("El promedio de edad es de: " + promedio)
 
-  // let numeros = []
-  // let maximo = 0
+// let numeros = []
+// let maximo = 0
 
-  // const cantidadDeNumeros = 10
+// const cantidadDeNumeros = 10
 
-  // for (let i = 0; i < cantidadDeNumeros; i++) {
-    
-  //   let numero = Number(prompt("Ingrese un numero"));
-  //   numeros.push(numero);
+// for (let i = 0; i < cantidadDeNumeros; i++) {
 
+//   let numero = Number(prompt("Ingrese un numero"));
+//   numeros.push(numero);
 
-  //   if (numero > maximo) {
-  //     maximo = numero
-  //   }
-  // }
-  // console.log("El numero se encuentra en la posicion del array numero: "+ numeros.indexOf(maximo))
-    
-  // console.log("Los números ingresados son:", numeros);
-  // console.log("El número máximo es:", maximo)
+//   if (numero > maximo) {
+//     maximo = numero
+//   }
+// }
+// console.log("El numero se encuentra en la posicion del array numero: "+ numeros.indexOf(maximo))
 
+// console.log("Los números ingresados son:", numeros);
+// console.log("El número máximo es:", maximo)
 
 // let numeros = [];
 // let positivos = 0
@@ -98,18 +96,17 @@
 // }
 // console.log("El numero minimo es: "+ minimo)
 
-
 // let edades = []
 
 // let sumaMayorEdad = 0
 
 // for (let i = 0; i < 4; i++) {
-  
+
 //   let edad = Number(prompt("Ingrese un numero"));
 
 //   edades.push(edad);
 //   acumulador = edad
-  
+
 //   if (edad > 18) {
 //     sumaMayorEdad += edad
 //   }
@@ -173,10 +170,102 @@
 //   console.log("No se ingresaron números impares.");
 // }
 
+// n = Number(prompt("Ingrese un numero"))
+// while (n !== 0) {
+//   n = Number(prompt("Ingrese un numero"))
+//   n++
+//   console.log(n)
+// }
 
-n = Number(prompt("Ingrese un numero"))
-while (n !== 0) {
-  n = Number(prompt("Ingrese un numero"))
-  n++
-  console.log(n)
+// let contadorMayores = 0;
+
+// let edad = Number(prompt("Ingrese solo edades mayores a 18 años"))
+// while (edad >= 18) {
+//   contadorMayores++;
+//   edad = Number(prompt("Ingrese solo edades mayores a 18 años"))
+
+// }
+// console.log("El número de personas mayores o iguales a 18 años es: " + contadorMayores)
+
+// let numero1 = Number(prompt("ingrese un numero"));
+// let numero2 = Number(prompt("ingrese otro numero"));
+
+// let mayor, menor;
+// if (numero1 < numero2) {
+//   menor = numero1;
+//   mayor = numero2;
+// } else {
+//   mayor = numero1;
+//   menor = numero2;
+// }
+
+// let contadorEntreNumeros = menor + 1
+
+// while (contadorEntreNumeros < mayor) {
+//   console.log(contadorEntreNumeros)
+//   contadorEntreNumeros++
+// }
+
+// let numeros = 0;
+// while (numeros < 100) {
+//   numeros += 5
+//   console.log(numeros)
+// }
+
+// numero = Number(prompt("Escriba un numero"))
+// divisor = 1
+// contador = 0
+// while (divisor <= numero) {
+//   if (numero % divisor == 0) {
+//     contador++
+//   }
+//   divisor++
+// }
+
+// if (contador == 2) {
+//   alert("Es Primo")
+// } else {
+//   alert ("No es primo")
+// }
+
+// console.log(numero)
+// console.log(contador)
+
+// let numero = Number(prompt("Ingrese un numero"));
+
+// maximo = numero;
+// posicion = 1;
+// posicionMaxima = posicion
+// while (numero != 0) {
+//   if (numero > maximo) {
+//     maximo = numero;
+//     posicionMaxima = posicion
+//   }
+//   posicion++
+//   numero = Number(prompt("Ingrese un numero"));
+
+//   console.log("El numero ingresado fue: "+ numero);
+//   console.log("La posicion del numero ingresado es: "+ posicion);
+// }
+
+let numero = Number(prompt("Ingrese un numero porfavor"));
+
+let minimo1 = numero;
+let bandera = 0;
+let minimo2 = 0;
+
+while (numero != 0) {
+  if (numero < minimo1) {
+    minimo2 = minimo1;
+    minimo1 = numero;
+  } else if (!bandera) {
+    bandera = 1;
+    minimo2 = numero;
+  } else if (numero < minimo2) {
+    minimo2 = numero;
+  }
+  numero = Number(prompt("Ingrese otro numero por favor")); // Lee un nuevo número
 }
+
+console.log("El número más pequeño es:", minimo1);
+console.log("El segundo número más pequeño es:", minimo2);
