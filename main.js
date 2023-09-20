@@ -248,7 +248,7 @@
 //   console.log("La posicion del numero ingresado es: "+ posicion);
 // }
 
-//Problema 8 
+//Problema 8
 
 // let numero = Number(prompt("Ingrese un numero porfavor"));
 
@@ -272,7 +272,6 @@
 
 // console.log("El número más pequeño es:", minimo1);
 // console.log("El segundo número más pequeño es:", minimo2);
-
 
 //Problema 9
 
@@ -300,14 +299,13 @@
 //     posicion2 = posicion
 //   }
 //   numero = Number(prompt("Ingrese otro numero por favor")); // Lee un nuevo número
-//   posicion++     
+//   posicion++
 // }
 
 // console.log("El número más pequeño es:", minimo1);
 // console.log("El segundo número más pequeño es:", minimo2);
 // console.log("la posicion del numero mas pequeño es:"+ posicion1);
 // console.log("la posicion del segundo numero mas pequeño es:"+ posicion2);
-
 
 //Problema 10
 
@@ -321,15 +319,15 @@
 //     if (banderaPositivo == 0) {
 //         minimoPositivo = numero
 //         banderaPositivo = 1
-//     } else if (numero < minimoPositivo) { 
+//     } else if (numero < minimoPositivo) {
 //         minimoPositivo = numero
 //     }
-    
+
 // } else {
 //     if (banderaNegativo == 0) {
 //         maximoNegativo = numero
 //         banderaNegativo = 1
-//     } else if 
+//     } else if
 //         (numero > maximoNegativo) {
 //              maximoNegativo = numero
 //         }
@@ -339,6 +337,69 @@
 
 // console.log(minimoPositivo)
 // console.log(maximoNegativo)
+
+// Ejercicios con funciones max
+
+// let num1 = Number(prompt("Ingrese un numero"))
+// let num2 = Number(prompt("Ingrese otro numero"))
+
+// function producto(num1,num2) {
+//     let result = num1 * num2
+//     return result
+// }
+
+// let resultado = producto(num1,num2)
+
+// console.log(resultado)
+
+// let montoVendido = Number(prompt("Monto vendido"));
+// let productoVendido = Number(prompt("Precio producto"));
+
+// montoTotal = (monto, precio) => {
+//   let resultado = montoVendido * productoVendido;
+//   return resultado;
+// };
+// let resultado = montoTotal(montoVendido, productoVendido);
+
+// console.log(resultado);
+
+
+//2do Problema
+
+// let num1 = Number(prompt("Ingrese numero"))
+// let num2 = Number(prompt("Ingrese otro numero"))
+
+// function mayor(num1,num2) {  
+//   if (num1 > num2) {
+//     console.log(num1)
+//   } else if (num2 > num1) 
+//     {
+//       console.log(num2)
+//   } else {
+//     console.log(0)
+//   }
+// }
+
+// let resultado = mayor(num1,num2)
+
+// console.log(resultado)
+
+// let num1 = Number(prompt("Ingrese un numero"))
+
+
+// function par(num) {
+//   if (num % 2 == 0) {
+//     console.log("Es Par")
+//   } else {
+//     console.log("Es Impar")
+//   }
+// }
+
+// let resultado = par(num1)
+
+
+
+
 
 
 
