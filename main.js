@@ -248,24 +248,26 @@
 //   console.log("La posicion del numero ingresado es: "+ posicion);
 // }
 
-let numero = Number(prompt("Ingrese un numero porfavor"));
+// let numero = Number(prompt("Ingrese un numero porfavor"));
 
-let minimo1 = numero;
-let bandera = 0;
-let minimo2 = 0;
+// let minimo1 = numero;
+// let bandera = 0;
+// let minimo2 = 0;
 
-while (numero != 0) {
-  if (numero < minimo1) {
-    minimo2 = minimo1;
-    minimo1 = numero;
-  } else if (!bandera) {
-    bandera = 1;
-    minimo2 = numero;
-  } else if (numero < minimo2) {
-    minimo2 = numero;
-  }
-  numero = Number(prompt("Ingrese otro numero por favor")); // Lee un nuevo número
-}
+// while (numero != 0) {
+//   if (numero < minimo1) {
+//     minimo2 = minimo1;
+//     minimo1 = numero;
+//   } else if (!bandera) {
+//     bandera = 1;
+//     minimo2 = numero;
+//   } else if (numero < minimo2) {
+//     minimo2 = numero;
+//   }
+//   numero = Number(prompt("Ingrese otro numero por favor")); // Lee un nuevo número
+// }
 
-console.log("El número más pequeño es:", minimo1);
-console.log("El segundo número más pequeño es:", minimo2);
+// console.log("El número más pequeño es:", minimo1);
+// console.log("El segundo número más pequeño es:", minimo2);
+
+
