@@ -445,23 +445,28 @@
 
 
 // VECTORES
-vector = [0]
 
-for(i = 0 ; i <= 4; i++) {
-  num = Number(prompt("Ingrese un numero"))
-  vector [i] = num
-  console.log(vector)
+// Problema 1
 
-}
+// vector = [0]
 
-acumulador = 0
+// for(i = 0 ; i <= 4; i++) {
+//   num = Number(prompt("Ingrese un numero"))
+//   vector [i] = num
+//   console.log(vector)
 
-for (let x = 0; x < 4; x++) {
-acumulador += vector[x]
+// }
+
+// acumulador = 0
+
+// for (let x = 0; x < 4; x++) {
+// acumulador += vector[x]
     
-}
+// }
 
-promedio = acumulador / 4
+// promedio = acumulador / 4
 
-console.log(`El promedio de los números ingresados es: ${promedio}`);
+// console.log(`El promedio de los números ingresados es: ${promedio}`);
 
+
+// Problema 2 
