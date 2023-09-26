@@ -272,3 +272,196 @@
 
 
 
+//Problema 9
+
+// let numero = Number(prompt("Ingrese un numero porfavor"));
+
+// let minimo1 = numero;
+// let bandera = 0;
+// let minimo2 = 0;
+// let posicion = 1
+// let posicion1 = posicion
+
+// while (numero != 0) {
+//   if (numero < minimo1) {
+//     minimo2 = minimo1;
+//     minimo1 = numero;
+//     posicion2 = posicion1;
+//     posicion1 = posicion
+//     bandera = 1
+//   } else if (!bandera) {
+//     minimo2 = numero;
+//     bandera = 1;
+//     posicion2 = posicion
+//   } else if (numero < minimo2) {
+//     minimo2 = numero;
+//     posicion2 = posicion
+//   }
+//   numero = Number(prompt("Ingrese otro numero por favor")); // Lee un nuevo número
+//   posicion++
+// }
+
+// console.log("El número más pequeño es:", minimo1);
+// console.log("El segundo número más pequeño es:", minimo2);
+// console.log("la posicion del numero mas pequeño es:"+ posicion1);
+// console.log("la posicion del segundo numero mas pequeño es:"+ posicion2);
+
+//Problema 10
+
+// let numero = Number(prompt("Ingrese un numero"))
+// banderaPositivo = 0
+// banderaNegativo = 0
+
+// while (numero != 0) {
+// if (numero > 0) {
+
+//     if (banderaPositivo == 0) {
+//         minimoPositivo = numero
+//         banderaPositivo = 1
+//     } else if (numero < minimoPositivo) {
+//         minimoPositivo = numero
+//     }
+
+// } else {
+//     if (banderaNegativo == 0) {
+//         maximoNegativo = numero
+//         banderaNegativo = 1
+//     } else if
+//         (numero > maximoNegativo) {
+//              maximoNegativo = numero
+//         }
+// }
+// numero = Number(prompt("Ingrese un numero"))
+// }
+
+// console.log(minimoPositivo)
+// console.log(maximoNegativo)
+
+// Ejercicios con funciones max
+
+// let num1 = Number(prompt("Ingrese un numero"))
+// let num2 = Number(prompt("Ingrese otro numero"))
+
+// function producto(num1,num2) {
+//     let result = num1 * num2
+//     return result
+// }
+
+// let resultado = producto(num1,num2)
+
+// console.log(resultado)
+
+// let montoVendido = Number(prompt("Monto vendido"));
+// let productoVendido = Number(prompt("Precio producto"));
+
+// montoTotal = (monto, precio) => {
+//   let resultado = montoVendido * productoVendido;
+//   return resultado;
+// };
+// let resultado = montoTotal(montoVendido, productoVendido);
+
+// console.log(resultado);
+
+
+//2do Problema
+
+// let num1 = Number(prompt("Ingrese numero"))
+// let num2 = Number(prompt("Ingrese otro numero"))
+
+// function mayor(num1,num2) {  
+//   if (num1 > num2) {
+//     console.log(num1)
+//   } else if (num2 > num1) 
+//     {
+//       console.log(num2)
+//   } else {
+//     console.log(0)
+//   }
+// }
+
+// let resultado = mayor(num1,num2)
+
+// console.log(resultado)
+
+
+// 3er problema
+
+
+// let num1 = Number(prompt("Ingrese un numero"))
+
+
+// function par(num) {
+//   if (num % 2 == 0) {
+//     console.log("Es Par")
+//   } else {
+//     console.log("Es Impar")
+//   }
+// }
+
+// let resultado = par(num1)
+
+
+// 4to Problema
+
+// Falta
+
+
+// 5To PRoblema
+
+// function pagos(monto, cantidad) {
+        
+//     let cantidadPagos = monto / cantidad
+    
+//     return cantidadPagos
+    
+// }
+
+// for (let i = 1; i <= 10; i++) {
+
+//     const montoVenta = parseFloat(prompt(`Ingrese el monto de la venta ${i}:`));
+//     const cantidadPagos = parseInt(prompt(`Ingrese la cantidad de pagos para la venta ${i}:`));
+
+//     const montoPorPago = pagos(montoVenta,cantidadPagos)
+    
+    
+//     console.log(`Venta ${i}:`);
+//     console.log(`Cantidad de Pagos: ${cantidadPagos}`);
+//     console.log(`Monto por Pago: $${montoPorPago.toFixed(2)}`); // ToFixed se utiliza para poner 2 decimales despues de la coma.
+// }
+
+    
+
+// 6to Problema revisar
+
+    // function sumaResta(num1,num2) {
+    //     let suma = num1 + num2
+    //     num2 = num2 - num1
+
+    //     return suma
+    //     } 
+    //     let resultado = alert(`La suma y resta de los numero es : `+ sumaResta(55,5) + num2)
+
+
+
+
+// VECTORES
+vector = [0]
+
+for(i = 0 ; i <= 4; i++) {
+  num = Number(prompt("Ingrese un numero"))
+  vector [i] = num
+  console.log(vector)
+
+}
+
+acumulador = 0
+
+for (let x = 0; x < 4; x++) {
+acumulador += vector[x]
+    
+}
+
+promedio = acumulador / 4
+
+console.log(`El promedio de los números ingresados es: ${promedio}`);
+
