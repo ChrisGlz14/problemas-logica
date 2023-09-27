@@ -470,3 +470,18 @@
 
 
 // Problema 2 
+
+numArray = [0]
+
+for (let x = 0; x < 50; x++) {
+  let num = x
+  numArray[x] = num
+  console.log(numArray)
+}
+
+let acumulador = 0
+
+for (let x = 0; x < 50; x++) {
+  acumulador += numArray[x]
+}
+console.log(" La suma de los numeros del array es: "+ acumulador)
