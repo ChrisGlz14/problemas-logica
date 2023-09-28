@@ -1,3 +1,403 @@
+// let kilometrosEntreCiudades = 20
+// let velocidadPromedio = 80
+
+// let resultado = kilometrosEntreCiudades / velocidadPromedio
+// console.log(resultado +" horas para llegar a una velocidad de "+ velocidadPromedio+ " k/h " + "entre dos ciudades que tienen " + kilometrosEntreCiudades+ " kilometros entre ellas")
+
+// let num1 = 5
+// let num2 = 7
+// let num3 = 7
+
+// let resultado = (num1+num2+num3)/3
+
+// console.log(resultado)
+
+// let m2Totales = 100
+// let m2Cubiertos = 30
+// let m2Descubiertos = m2Totales - m2Cubiertos
+
+// let porcentajeM2Cubiertos = (m2Cubiertos * 100) / m2Totales
+
+// let porcentajeM2Descubierto = (m2Descubiertos * 100) /m2Totales
+
+// console.log = (porcentajeM2Cubiertos)
+// console.log = (porcentajeM2Descubierto)
+
+// let valorTotal = 14700
+// let descuento = (valorTotal * 15) / 100
+// let resultado = valorTotal - descuento
+// console.log(resultado)
+// console.log("El descuento son: " + descuento)
+
+//Solucion de maxiPrograma
+// let valorTotal = 14700
+// let descuento = valorTotal * 0.85
+// console.log (descuento)
+
+
+
+
+
+
+
+
+
+
+// problema 9
+// let alumnos = 24
+// let alumnas = 14
+
+// let total = alumnos + alumnas
+// let porcentajeVarones = (alumnos * 100)/total
+// let porcentajeMujeres = (alumnas * 100)/total
+
+// console.log("En el curso son: " + porcentajeVarones + " % de alumnos varones"+ " y "+ porcentajeMujeres +" % de alumnas mujeres")
+
+
+
+
+
+
+
+
+
+
+
+//Problema 10
+
+// let num1 = 2
+// let num2 = 3
+
+// let suma = num1 * num2;
+// let resta = num1 - num2;
+// let multiplicacion = num1 * num2;
+// let division = num1 / num2;
+
+// console.log("la suma de los numeros da : "+suma + ". la resta de los numeros da: "+resta +". la multiplicacion de los numeros da: "+ multiplicacion + ". la division de los numeros da: " + division)
+
+
+
+
+
+
+
+
+
+
+//Ejercicios 2 maxi programa
+//Problema 1
+// const numero = (num) => {
+//   if(num < 10){
+//     return "el numero es menor que 10"
+//   } else {
+//     return "el numero es mayor que 10"
+//   }
+// }
+
+// numero(4)
+
+
+
+
+
+
+
+
+
+
+
+// problema 2
+
+// function numeros(num1,num2) {
+//   if (num1 < num2) {
+//     return `El ${num1} es menor`
+//       } else if (num1 > num2) {
+//           return `El ${num2} es menor`
+//       }
+// }
+// numeros (8,4)
+
+
+
+
+
+
+
+
+
+
+
+// Problema 3
+// numeros = (num1,num2) => {
+// return num1 === num2  ? "Los números son iguales"
+//                       :  num1 < num2
+//                       ? "El número es menor"
+//                       : "El número es mayor";
+
+// }
+// numeros(1,4)
+
+
+
+
+
+
+
+
+
+// Problema 4
+
+// numero = (num) => {
+//   return num === 0  ? "El numero es CERO"
+//                     : num > 0
+//                     ? "El numero es POSITIVO"
+//                     : num < 0
+//                     ? "El numero es NEGATIVO"
+//                     : "Falta un numero"
+// }
+//   numero(0)
+
+// Problema 5
+
+// numero = (num) => {
+//   return num % 2 == 0  ? "El numero es par"
+//                        : num % 2 != 0
+//                        ?"El numero es impar"
+//                        :"No se ingreso ningun numero"
+// }
+
+// numero(254865923)
+
+
+
+
+
+
+
+
+
+
+// Problema 6
+// descuento = (monto) => {
+//   return monto < 1000 ? "No hay DESCUENTO"
+//                       : monto >= 1000 && monto < 5000
+//                       ?"Hay un DESCUENTO DEL 10%"
+//                       : monto >= 5000
+//                       ?"Hay un DESCUENTO DEL 18%"
+//                       : "ingrese un MONTO"
+// }
+// descuento(5000)
+
+
+
+
+
+
+
+
+
+// Problema 7
+
+// let numeros = (num1,num2,num3,num4) => {
+//   return num1 > num2 && num3 && num4 ?`El numero ${num1} es el mayor de los 4`
+//                                      : num2 > num3 && num4
+//                                      ? `El numero ${num2} es el mayor de los 4`
+//                                      : num3 > num4
+//                                      ? `El numero ${num3} es el mayor de los 4`
+//                                      : `El numero ${num4} es el mayor de los 4`
+// }
+// numeros(158,241,333,1045)
+
+
+
+
+
+
+
+
+// Problema 8
+
+// let numeros = (num1,num2,num3,num4) => {
+//   return num1 < num2 && num1 < num3 && num1 < num4 ? `El numero ${num1} es el menor de todos los numeros`
+//                                      : num2 < num3 && num2 < num4 && num2 < num1
+//                                      ? `El numero ${num2} es el menor de todos los numeros`
+//                                      : num3 < num4 && num3 < num2 && num3 < num1
+//                                      ? `El numero ${num3} es el menor de todos los numeros`
+//                                      : `El numero ${num4} es el menor de todos los numeros`
+
+// }
+//  numeros(11,12,15,17)
+
+// let numeros = (num1,num2,num3,num4,num5) => {
+//   let menor = num1
+//   let mayor = num1
+
+//   if (num2 < menor) {
+//     menor = num2
+//   } else if (num2 > mayor) {
+//     mayor = num2
+//   }
+
+//   if (num3 < menor) {
+//     menor = num3
+//   } else if (num3 > mayor) {
+//     mayor = num3
+//   }
+
+//   if (num3 < menor) {
+//     menor = num3
+//   } else if (num3 > mayor) {
+//     mayor = num3
+//   }
+
+//   if (num4 < menor) {
+//     menor = num4
+//   } else if (num4 > mayor) {
+//     mayor = num4
+//   }
+
+//   if (num5 < menor) {
+//     menor = num5
+//   } else if (num5 > mayor) {
+//     mayor = num5
+//   }
+
+//   console.log("MENOR: ", menor)
+//   console.log("MAYOR: ", mayor)
+// }
+
+// numeros(325,53,43,24,50)
+
+// pcs = (procesador, ram, memoriaExtendida) => {
+
+//   precioBase = 0
+
+//   switch(procesador) {
+//     case 1:
+//       switch(ram) {
+//         case 1:
+//           precioBase = 800;
+//           break;
+
+//         case 2:
+//           switch (ram) {
+//               precioBase = 900
+//               break
+//           }
+
+//         case 3:
+//           switch(ram) {
+//               precioBase = 1200
+//               break
+//           }
+//           break
+//   }
+//     case 2:
+//         switch(ram) {
+//           case 1:
+//           precioBase = 900
+//           break;
+//           case 2:
+//               precioBase = 1000
+//                 break;
+//           case 3:
+//           precioBase = 1400
+//           break
+//         }
+
+//         break
+//     case 3:
+//       switch(ram) {
+//         case 1 :
+//       precioBase = 1000;
+//           break;
+//         case 2:
+//           precioBase = 1400
+//           break;
+//         case 3:
+//           precioBase = 2000
+//           break
+//       }
+//       break
+//   }
+// }
+// if(extenderDisco == true) {
+//   precioBase += 300
+//   return precioBase
+// }
+// pcs()
+
+// numeros = (num1,num2,num3,num4) => {
+//   if(num1 === num2 && num2 === num3 && num3 === num4){
+//     return "Los numeros ingresados son iguales"
+//   }
+
+// }
+//   numeros(2,2,2,2)
+
+// numeros = (num1, num2, num3) => {
+//   let orden = [];
+
+//   if (num1 < num2 && num2 < num3) {
+//     orden = [num1, num2, num3];
+//   } else if (num1 < num3 && num1 < num2) {
+//     orden = [num1, num3, num2];
+//   } else if (num2 < num1 && num3 < num1) {
+//     orden = [num2, num3, num1];
+//   } else if (num2 < num1 && num1 < num3) {
+//     orden = [num2, num1, num3];
+//   } else if (num3 < num2 && num3 < num1) {
+//     orden = [num3, num1, num2];
+//   } else if (num3 < num1 && num1 < num2) {
+//     orden = [num3, num1, num2];
+//   }
+//   return orden;
+// };
+
+// numeros(4, 3, 1);
+
+// numeros = (num1,num2,num3) => {
+//   let suma = num1 + num2
+//   let multiplicacion = num2 * num3
+//   if (suma > multiplicacion) {
+//     console.log(" la suma de los dos primeros es mayor al producto del segundo numero por el tercero")
+//   } else {
+//     return "El producto es mayor"
+//   }
+//   console.log(suma)
+//   console.log(multiplcacion)
+// }
+
+// numeros(33,31,2)
+
+
+
+
+
+
+
+
+// EJERCICIOS 3 FOR
+
+// let i = 0
+
+// for(let i = 0; i < 10; i++) {
+//   console.log (i)
+// }
+
+// let numeros = [1, 3, 4, 50, 6, 7, 8, 9, 10];
+// let maximo = numeros[0]; // Suponemos que el primer número es el máximo inicialmente
+
+// for (let i = 0; i < numeros.length; i++) {
+//   if (numeros[i] > maximo) {
+//     maximo = numeros[i]; // Actualizamos el máximo si encontramos un número mayor
+//   }
+// }
+// console.log("El valor más alto es:", maximo);
+
+
+
+
 // for (let i = 1; i <= 2; i++) {
 
 //     numeros = Number(prompt("Ingrese un numero aleatorio"))
@@ -187,6 +587,15 @@
 // }
 // console.log("El número de personas mayores o iguales a 18 años es: " + contadorMayores)
 
+
+
+
+
+
+
+
+
+// Problema 5
 // let numero1 = Number(prompt("ingrese un numero"));
 // let numero2 = Number(prompt("ingrese otro numero"));
 
@@ -212,6 +621,16 @@
 //   console.log(numeros)
 // }
 
+
+
+
+
+
+
+
+
+// Problema 6
+
 // numero = Number(prompt("Escriba un numero"))
 // divisor = 1
 // contador = 0
@@ -231,6 +650,13 @@
 // console.log(numero)
 // console.log(contador)
 
+
+
+
+
+
+// Problema 7
+
 // let numero = Number(prompt("Ingrese un numero"));
 
 // maximo = numero;
@@ -248,18 +674,22 @@
 //   console.log("La posicion del numero ingresado es: "+ posicion);
 // }
 
+
+
+
+
+
+
+// Problema 8
+
 // let numero = Number(prompt("Ingrese un numero porfavor"));
 
 // let minimo1 = numero;
 // let bandera = 0;
-// let minimo2 = 0;
 
-// while (numero != 0) {
-//   if (numero < minimo1) {
-//     minimo2 = minimo1;
-//     minimo1 = numero;
+//     bandera = true
 //   } else if (!bandera) {
-//     bandera = 1;
+//     bandera = true;
 //     minimo2 = numero;
 //   } else if (numero < minimo2) {
 //     minimo2 = numero;
@@ -269,6 +699,10 @@
 
 // console.log("El número más pequeño es:", minimo1);
 // console.log("El segundo número más pequeño es:", minimo2);
+
+
+
+
 
 
 
@@ -306,6 +740,13 @@
 // console.log("la posicion del numero mas pequeño es:"+ posicion1);
 // console.log("la posicion del segundo numero mas pequeño es:"+ posicion2);
 
+
+
+
+
+
+
+
 //Problema 10
 
 // let numero = Number(prompt("Ingrese un numero"))
@@ -337,7 +778,18 @@
 // console.log(minimoPositivo)
 // console.log(maximoNegativo)
 
+
+
+
+
+
+
+
+
+
+
 // Ejercicios con funciones max
+// Problema 1
 
 // let num1 = Number(prompt("Ingrese un numero"))
 // let num2 = Number(prompt("Ingrese otro numero"))
@@ -363,6 +815,12 @@
 // console.log(resultado);
 
 
+
+
+
+
+
+
 //2do Problema
 
 // let num1 = Number(prompt("Ingrese numero"))
@@ -384,8 +842,12 @@
 // console.log(resultado)
 
 
-// 3er problema
 
+
+
+
+
+// 3er problema
 
 // let num1 = Number(prompt("Ingrese un numero"))
 
@@ -401,9 +863,19 @@
 // let resultado = par(num1)
 
 
+
+
+
+
+
 // 4to Problema
 
 // Falta
+
+
+
+
+
 
 
 // 5To PRoblema
@@ -431,6 +903,10 @@
 
     
 
+
+
+
+
 // 6to Problema revisar
 
     // function sumaResta(num1,num2) {
@@ -444,44 +920,144 @@
 
 
 
+
+
 // VECTORES
-
-// Problema 1
-
+// Ejercicio 1. Guardar 50 números y mostrar la suma.
 // vector = [0]
 
-// for(i = 0 ; i <= 4; i++) {
-//   num = Number(prompt("Ingrese un numero"))
-//   vector [i] = num
+// for(i = 0 ; i < 50; i++) {
+//   let num = i
+//   vector[i] = num
 //   console.log(vector)
-
 // }
 
 // acumulador = 0
 
-// for (let x = 0; x < 4; x++) {
+// for (let x = 0; x < 50; x++) {
 // acumulador += vector[x]
     
 // }
 
-// promedio = acumulador / 4
+// sumaArray = acumulador
+
+// console.log(`La suma de los números ingresados es: ${sumaArray}`);
+
+
+
+
+
+
+
+// PROBLEMA 2
+// Ejercicio 2. Guardar 10 números. Buscar máximo y posición.
+// vector = [0]
+
+// for (let i = 0; i < 10; i++) {
+//   let num = Number(prompt("Ingrese numero"))
+//   vector[i] = num
+// }
+// console.log(vector)
+// let pos = 1
+// let max = vector[0]
+
+// for (let i = 0; i < 10; i++) {
+//   if (vector[i] > max) {
+//     max = vector[i]
+//     pos = i+1
+//   }
+
+  
+// }
+// console.log("La posicion del numero mas grande es: "+ pos)
+// console.log("El numero mas grande es: "+ max)
+
+
+
+
+
+
+// PROBLEMA 3
+// Ejercicio 3. Guardar 100 números. Calcular promedio, mostrar los mayores.
+// vector = [0]
+// // Ciclo para ingresar numeros
+// for(i = 0 ; i < 5; i++) {
+//   num = Number(prompt("Ingrese un numero"))
+//   vector [i] = num
+//   console.log(vector)
+// }
+
+// acumulador = 0
+// // Ciclo para sumar todos los numeros
+// for (let x = 0; x < 5; x++) {
+// acumulador += vector[x]
+// }
+// // Operacion para buscar el promedio
+// promedio = acumulador / 5
 
 // console.log(`El promedio de los números ingresados es: ${promedio}`);
 
+// // Ciclo para recorrer y buscar el mayor
 
-// Problema 2 
+// let pos = 1
+// let max = 0
+// for (let i = 0; i < 5; i++) {
+//   if (vector[i] > max) {
+//     max = vector[i]
+//     pos = i+1
+//   }
+  
+// }
 
-numArray = [0]
+// console.log(`La posicion del numero mas grande es: ${pos}`)
+// console.log(`El numero mas grande es: ${max}`)
 
-for (let x = 0; x < 50; x++) {
-  let num = x
-  numArray[x] = num
-  console.log(numArray)
+
+
+
+
+
+// PROBLEMA 4
+// Guardar 5 números. Determinar si está ordenado de menor a mayor.
+// vector = [0]
+// Bucle para llamar numeros
+// for(let i = 0; i < 5; i++) {
+//   let num = Number(prompt("Ingrese un numero"))
+//   vector[i] = num
+// }
+// Variables necesarias que usaremos 
+// let bandera = 1 
+// let max = vector[0]
+
+// Bucle para determinar el maximo
+// for (let i = 0; i < 5; i++) {
+//   if (vector[i] >= max) {
+//     max = vector[i]
+//   } else {
+//     bandera = 0
+//   }
+// }
+// Si el if de arriba es verdadero, estara ordenado y la bandera imprimira eso, si la bandera es falsa determinara que no estan ordenados.
+// if (bandera) {
+//   console.log("Esta ordenado de menor a mayor") 
+// } else {
+//   console.log("Esta desordenado")
+// }
+
+
+
+
+
+// PROBLEMA 5
+// Vector de valores Char. Intercambiar caracteres dados.
+
+stringArray = [0]
+
+for (let i = 0; i < 5; i++) {
+  stringChar = String(prompt("Ingrese una cadena o caracteres"))
+
+  stringArray[i] = stringChar
+
+  console.log(stringArray)
+
 }
-
-let acumulador = 0
-
-for (let x = 0; x < 50; x++) {
-  acumulador += numArray[x]
-}
-console.log(" La suma de los numeros del array es: "+ acumulador)
