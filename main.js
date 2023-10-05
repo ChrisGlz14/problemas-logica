@@ -1,6 +1,7 @@
 // let kilometrosEntreCiudades = 20
 // let velocidadPromedio = 80
 
+
 // let resultado = kilometrosEntreCiudades / velocidadPromedio
 // console.log(resultado +" horas para llegar a una velocidad de "+ velocidadPromedio+ " k/h " + "entre dos ciudades que tienen " + kilometrosEntreCiudades+ " kilometros entre ellas")
 
@@ -34,15 +35,6 @@
 // let descuento = valorTotal * 0.85
 // console.log (descuento)
 
-
-
-
-
-
-
-
-
-
 // problema 9
 // let alumnos = 24
 // let alumnas = 14
@@ -52,16 +44,6 @@
 // let porcentajeMujeres = (alumnas * 100)/total
 
 // console.log("En el curso son: " + porcentajeVarones + " % de alumnos varones"+ " y "+ porcentajeMujeres +" % de alumnas mujeres")
-
-
-
-
-
-
-
-
-
-
 
 //Problema 10
 
@@ -75,15 +57,6 @@
 
 // console.log("la suma de los numeros da : "+suma + ". la resta de los numeros da: "+resta +". la multiplicacion de los numeros da: "+ multiplicacion + ". la division de los numeros da: " + division)
 
-
-
-
-
-
-
-
-
-
 //Ejercicios 2 maxi programa
 //Problema 1
 // const numero = (num) => {
@@ -96,16 +69,6 @@
 
 // numero(4)
 
-
-
-
-
-
-
-
-
-
-
 // problema 2
 
 // function numeros(num1,num2) {
@@ -117,16 +80,6 @@
 // }
 // numeros (8,4)
 
-
-
-
-
-
-
-
-
-
-
 // Problema 3
 // numeros = (num1,num2) => {
 // return num1 === num2  ? "Los números son iguales"
@@ -136,14 +89,6 @@
 
 // }
 // numeros(1,4)
-
-
-
-
-
-
-
-
 
 // Problema 4
 
@@ -168,15 +113,6 @@
 
 // numero(254865923)
 
-
-
-
-
-
-
-
-
-
 // Problema 6
 // descuento = (monto) => {
 //   return monto < 1000 ? "No hay DESCUENTO"
@@ -187,14 +123,6 @@
 //                       : "ingrese un MONTO"
 // }
 // descuento(5000)
-
-
-
-
-
-
-
-
 
 // Problema 7
 
@@ -207,13 +135,6 @@
 //                                      : `El numero ${num4} es el mayor de los 4`
 // }
 // numeros(158,241,333,1045)
-
-
-
-
-
-
-
 
 // Problema 8
 
@@ -370,13 +291,6 @@
 
 // numeros(33,31,2)
 
-
-
-
-
-
-
-
 // EJERCICIOS 3 FOR
 
 // let i = 0
@@ -394,9 +308,6 @@
 //   }
 // }
 // console.log("El valor más alto es:", maximo);
-
-
-
 
 // for (let i = 1; i <= 2; i++) {
 
@@ -587,14 +498,6 @@
 // }
 // console.log("El número de personas mayores o iguales a 18 años es: " + contadorMayores)
 
-
-
-
-
-
-
-
-
 // Problema 5
 // let numero1 = Number(prompt("ingrese un numero"));
 // let numero2 = Number(prompt("ingrese otro numero"));
@@ -621,14 +524,6 @@
 //   console.log(numeros)
 // }
 
-
-
-
-
-
-
-
-
 // Problema 6
 
 // numero = Number(prompt("Escriba un numero"))
@@ -650,11 +545,6 @@
 // console.log(numero)
 // console.log(contador)
 
-
-
-
-
-
 // Problema 7
 
 // let numero = Number(prompt("Ingrese un numero"));
@@ -673,12 +563,6 @@
 //   console.log("El numero ingresado fue: "+ numero);
 //   console.log("La posicion del numero ingresado es: "+ posicion);
 // }
-
-
-
-
-
-
 
 // Problema 8
 
@@ -699,12 +583,6 @@
 
 // console.log("El número más pequeño es:", minimo1);
 // console.log("El segundo número más pequeño es:", minimo2);
-
-
-
-
-
-
 
 //Problema 9
 
@@ -740,13 +618,6 @@
 // console.log("la posicion del numero mas pequeño es:"+ posicion1);
 // console.log("la posicion del segundo numero mas pequeño es:"+ posicion2);
 
-
-
-
-
-
-
-
 //Problema 10
 
 // let numero = Number(prompt("Ingrese un numero"))
@@ -778,16 +649,6 @@
 // console.log(minimoPositivo)
 // console.log(maximoNegativo)
 
-
-
-
-
-
-
-
-
-
-
 // Ejercicios con funciones max
 // Problema 1
 
@@ -814,22 +675,15 @@
 
 // console.log(resultado);
 
-
-
-
-
-
-
-
 //2do Problema
 
 // let num1 = Number(prompt("Ingrese numero"))
 // let num2 = Number(prompt("Ingrese otro numero"))
 
-// function mayor(num1,num2) {  
+// function mayor(num1,num2) {
 //   if (num1 > num2) {
 //     console.log(num1)
-//   } else if (num2 > num1) 
+//   } else if (num2 > num1)
 //     {
 //       console.log(num2)
 //   } else {
@@ -841,16 +695,9 @@
 
 // console.log(resultado)
 
-
-
-
-
-
-
 // 3er problema
 
 // let num1 = Number(prompt("Ingrese un numero"))
-
 
 // function par(num) {
 //   if (num % 2 == 0) {
@@ -862,30 +709,18 @@
 
 // let resultado = par(num1)
 
-
-
-
-
-
-
 // 4to Problema
 
 // Falta
 
-
-
-
-
-
-
 // 5To PRoblema
 
 // function pagos(monto, cantidad) {
-        
+
 //     let cantidadPagos = monto / cantidad
-    
+
 //     return cantidadPagos
-    
+
 // }
 
 // for (let i = 1; i <= 10; i++) {
@@ -894,33 +729,21 @@
 //     const cantidadPagos = parseInt(prompt(`Ingrese la cantidad de pagos para la venta ${i}:`));
 
 //     const montoPorPago = pagos(montoVenta,cantidadPagos)
-    
-    
+
 //     console.log(`Venta ${i}:`);
 //     console.log(`Cantidad de Pagos: ${cantidadPagos}`);
 //     console.log(`Monto por Pago: $${montoPorPago.toFixed(2)}`); // ToFixed se utiliza para poner 2 decimales despues de la coma.
 // }
 
-    
-
-
-
-
-
 // 6to Problema revisar
 
-    // function sumaResta(num1,num2) {
-    //     let suma = num1 + num2
-    //     num2 = num2 - num1
+// function sumaResta(num1,num2) {
+//     let suma = num1 + num2
+//     num2 = num2 - num1
 
-    //     return suma
-    //     } 
-    //     let resultado = alert(`La suma y resta de los numero es : `+ sumaResta(55,5) + num2)
-
-
-
-
-
+//     return suma
+//     }
+//     let resultado = alert(`La suma y resta de los numero es : `+ sumaResta(55,5) + num2)
 
 // VECTORES
 // Ejercicio 1. Guardar 50 números y mostrar la suma.
@@ -936,18 +759,12 @@
 
 // for (let x = 0; x < 50; x++) {
 // acumulador += vector[x]
-    
+
 // }
 
 // sumaArray = acumulador
 
 // console.log(`La suma de los números ingresados es: ${sumaArray}`);
-
-
-
-
-
-
 
 // PROBLEMA 2
 // Ejercicio 2. Guardar 10 números. Buscar máximo y posición.
@@ -967,15 +784,9 @@
 //     pos = i+1
 //   }
 
-  
 // }
 // console.log("La posicion del numero mas grande es: "+ pos)
 // console.log("El numero mas grande es: "+ max)
-
-
-
-
-
 
 // PROBLEMA 3
 // Ejercicio 3. Guardar 100 números. Calcular promedio, mostrar los mayores.
@@ -1006,16 +817,11 @@
 //     max = vector[i]
 //     pos = i+1
 //   }
-  
+
 // }
 
 // console.log(`La posicion del numero mas grande es: ${pos}`)
 // console.log(`El numero mas grande es: ${max}`)
-
-
-
-
-
 
 // PROBLEMA 4
 // Guardar 5 números. Determinar si está ordenado de menor a mayor.
@@ -1025,8 +831,8 @@
 //   let num = Number(prompt("Ingrese un numero"))
 //   vector[i] = num
 // }
-// Variables necesarias que usaremos 
-// let bandera = 1 
+// Variables necesarias que usaremos
+// let bandera = 1
 // let max = vector[0]
 
 // Bucle para determinar el maximo
@@ -1039,25 +845,41 @@
 // }
 // Si el if de arriba es verdadero, estara ordenado y la bandera imprimira eso, si la bandera es falsa determinara que no estan ordenados.
 // if (bandera) {
-//   console.log("Esta ordenado de menor a mayor") 
+//   console.log("Esta ordenado de menor a mayor")
 // } else {
 //   console.log("Esta desordenado")
 // }
 
-
-
-
-
 // PROBLEMA 5
 // Vector de valores Char. Intercambiar caracteres dados.
 
-stringArray = [0]
+// stringArray = [];
+// i = 0;
 
-for (let i = 0; i < 5; i++) {
-  stringChar = String(prompt("Ingrese una cadena o caracteres"))
+// while (stringArray != ".") {
+//   stringChar = String(prompt("Ingrese un caracter"));
 
-  stringArray[i] = stringChar
+//   stringArray[i] = stringChar;
 
-  console.log(stringArray)
+//   console.log(stringArray[i]);
 
-}
+//   if (stringChar === ".") {
+//     console.log("El programa finalizo");
+//     break;
+//   }
+//   stringArray[i] = stringChar;
+//   i++; 
+// }
+// x = 0
+// for (let x = 0; x < stringArray.length; x++) {
+//   if (stringArray[x] == "a") {
+//     stringArray[x] = "e"
+//   }
+// }
+
+// console.log("Vector char original: " + stringArray.join(''));
+ 
+//Tiene algunas diferencias ya que se resolvio con metodos de javacript
+// Ejercicio 6. Guardar 10 números y buscar repetidos.
+// Ejercicio 7. Registros de ventas. Lote y puntos a, b y c.
+// Ejercicio 8. Ordenar Vector.
