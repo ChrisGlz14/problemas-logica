@@ -880,6 +880,50 @@
 // console.log("Vector char original: " + stringArray.join(''));
  
 //Tiene algunas diferencias ya que se resolvio con metodos de javacript
+
+
 // Ejercicio 6. Guardar 10 números y buscar repetidos.
+
+// let numerosArray = []
+
+// let i = 0
+
+// repetidor = 0
+// for (let i = 0; i < 5; i++) {
+//     num = Number(prompt("Ingrese un numero"))
+//     numerosArray[i]= num
+
+
+//     contador = 0
+//     for (let i = 0; i < numerosArray.length; i++) {
+//         numerosRepetidos = numerosArray
+//         if (numerosRepetidos == numerosArray[i] ) {
+//             contador++
+//         }
+        
+//     }
+
+//     if (contador >= 2) {
+//         repetidor = 1
+//     }
+// }
+
+// if (repetidor) {
+//     alert("Hay repetidos")
+// } else {
+//     alert("No hay repetidos")
+// }
+
+// console.log(numerosArray)
+
+
+
 // Ejercicio 7. Registros de ventas. Lote y puntos a, b y c.
+
+
+
+
+
+
+
 // Ejercicio 8. Ordenar Vector.
